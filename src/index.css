@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+* {
+  font-family: "Nunito", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  background:linear-gradient(45deg,#fe3aac,#9828fa,#ff44ab);
+}
+
+
+.counter-container {
+
+  width: 45%;
+  transition: all ease 300ms;
+  height: 15rem;
+  border: none;
+  box-shadow: 0px 0px 5px rgb(146, 145, 145);
+  background-color: #fffcfc25;
+  text-align: center;
+  margin: 5rem auto;
+  padding: 3rem;
+}
+.counter-container:hover{
+  
+  text-align: center;
+  width: 40%;
+  border-radius: 15px;
+
+}
+
+.counter-button {
+  /* matcha color */
+  font-weight: 200;
+  color: #ffedca;
+  background-color: #56009d;
+  border: 1px solid #56009d;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  height: 4rem;
+  transition: all ease 500ms;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.402);
+}
+
+.counter-button:hover {
+  background-color: #9431e6;
+  border: 1px solid #9431e6;
+  transition: all ease 500ms;
+}
+
+.counter-button:active {
+  background-color: #c93885;
+  border: 1px solid #c93885;
+  transition: all ease 300ms;
+  box-shadow: none;
+}
+
+
+.counter-label {
+  font-weight: 300;
+  color: #56009d;
+  font-size: 6rem;
+  margin: 1rem;
+}
+
+.counter-heading{
+  text-align: center;
+  font-size: 5rem;
+  color: #56009d;
+}
+
+.inner-container{
+  margin: 0;
+}
